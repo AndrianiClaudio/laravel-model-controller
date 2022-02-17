@@ -28,7 +28,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  row-gap: 1rem;
   width: 250px;
   height: 350px;
   padding: 1.5rem;
