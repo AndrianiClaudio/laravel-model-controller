@@ -11,7 +11,5 @@ class PageController extends Controller
     {
         $movies = Movie::all();
         return view('home', ['movies' => $movies]);
-
-        // return view('home', ['movies' => 'test']);
     }
 }
