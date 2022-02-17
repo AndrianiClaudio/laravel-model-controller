@@ -4,3 +4,42 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  width: 100%;
+  text-align: center;
+  color: darkviolet;
+  padding: 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  min-width: 250px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border: 2px solid blue;
+  text-align: center;
+}
+
+.card .title {
+  color: blue;
+}
+
+.card .original-title {
+  color: darkblue;
+}
+

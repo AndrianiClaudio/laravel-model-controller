@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 100%;
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  h1 {
+    width: 100%;
+    text-align: center;
+    color: darkviolet;
+    padding: .5rem;
+  }
+}

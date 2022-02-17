@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  min-width: 250px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border: 2px solid blue;
+  text-align: center;
+  .title {
+    color:blue;
+  }
+  .original-title {
+    color: darkblue;
+  }
+}
