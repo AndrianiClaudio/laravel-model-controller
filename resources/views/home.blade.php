@@ -11,6 +11,7 @@
       @foreach ($movies as $movie)
       <div class="card">
         <h2>{{$movie->title}}</h2>
+        <h3>{{$movie->original_title}}</h3>
         <div class="nationality">
           <b>Nationality: </b><span>{{$movie->nationality}}</span> 
         </div>
@@ -24,9 +25,3 @@
       @endforeach
     </div>
 @endsection
-
-
-{{-- DONE
-  Creato model Movie
-  Creato controller Page Controller
-  --}}
