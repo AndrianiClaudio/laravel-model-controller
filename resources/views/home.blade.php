@@ -6,7 +6,7 @@
 
 @section('Content')
     <div class="container">
-      HomePage
+      @dd($movies);
     </div>
 @endsection
 
